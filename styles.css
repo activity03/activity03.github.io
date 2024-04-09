@@ -1,0 +1,84 @@
+  .container {
+      width: 70%;
+      margin: auto;
+      text-align: center;
+    }
+    
+    .dice {
+      text-align: center;
+      display: inline-block;
+    
+    }
+    
+    body {
+      background-image: url('images/dicebg2.jpg');
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+
+    }
+    
+    h1 {
+      margin: 30px;
+      font-family: 'Roboto', cursive;
+      text-shadow: 5px 0 #232931;
+      font-size: 8rem;
+      color: #4ECCA3;
+      
+    }
+    
+    p {
+      font-size: 2rem;
+      color: #4ECCA3;
+      font-family: 'Arial', cursive;
+      width: 300px;
+      border: 10px solid #4ECCA3;
+      padding: 10px;
+      margin: 5px;
+      color: black;
+      -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: .5px;
+      -webkit-text-stroke-color: black;
+    }
+    
+    button {
+      width: 100px;
+      height: 25px;
+      border-radius: 20px;
+  }
+    
+    img {
+      width: 80%;
+    }
+    
+    footer {
+      margin-top: 5%;
+      color: #EEEEEE;
+      text-align: center;
+      font-family: 'Indie Flower', cursive;
+    
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .dice img {
+      animation: spin 1s linear; /* Apply spin animation for 1 second */
+    }
+    
